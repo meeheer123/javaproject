@@ -103,20 +103,20 @@ public class Manager_Menu extends JFrame {
 		));
 		
 		JLabel lblNewLabel_1 = new JLabel("");
-		Image img1 = new ImageIcon(this.getClass().getResource("/6.PNG")).getImage();
-		lblNewLabel_1.setIcon(new ImageIcon(img1));
+//		Image img1 = new ImageIcon(this.getClass().getResource("/6.PNG")).getImage();
+//		lblNewLabel_1.setIcon(new ImageIcon(img1));
 		lblNewLabel_1.setBounds(-111, -11, 377, 345);
 		contentPane.add(lblNewLabel_1);
 		
 		lblNewLabel_2 = new JLabel("");
-		Image img2 = new ImageIcon(this.getClass().getResource("/5.PNG")).getImage();
-		lblNewLabel_2.setIcon(new ImageIcon(img2));
+//		Image img2 = new ImageIcon(this.getClass().getResource("/5.PNG")).getImage();
+//		lblNewLabel_2.setIcon(new ImageIcon(img2));
 		lblNewLabel_2.setBounds(0, 328, 266, 221);
 		contentPane.add(lblNewLabel_2);
 		
 		lblNewLabel_3 = new JLabel("");
-		Image img3 = new ImageIcon(this.getClass().getResource("/4.PNG")).getImage();
-		lblNewLabel_3.setIcon(new ImageIcon(img3));
+//		Image img3 = new ImageIcon(this.getClass().getResource("/4.PNG")).getImage();
+//		lblNewLabel_3.setIcon(new ImageIcon(img3));
 		lblNewLabel_3.setBounds(0, 549, 266, 154);
 		contentPane.add(lblNewLabel_3);
 		
