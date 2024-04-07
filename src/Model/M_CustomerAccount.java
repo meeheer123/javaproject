@@ -10,11 +10,11 @@ public class M_CustomerAccount {
 		try
 		{
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "root");
+			Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "system");
 		Statement stmt = con.createStatement();
 		//System.out.println(customerID+" "+ customerName+" "+ password);
-		String sql = "Insert INTO customer(Customer_ID, Name, Password) Values('"+ customerID + "','" +  customerName + "','" + password +"');"; 
-		
+		String sql = "Insert INTO customer (Customer_ID, Name, Password) Values('"+ customerID + "','" +  customerName + "','" + password +"')";
+		System.out.println(sql);
 		int a = stmt.executeUpdate(sql);
 		if(a == 1) {
 			return true;
@@ -26,7 +26,7 @@ public class M_CustomerAccount {
 	public boolean checkAccount(String customerID) {
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "root");
+			Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "system");
 			Statement stmt = con.createStatement();
 			String query = "Select Customer_ID From customer Where Customer_ID = '"+customerID+"'";
 			ResultSet rs = stmt.executeQuery(query);
@@ -44,7 +44,7 @@ public class M_CustomerAccount {
 		
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "root");
+			Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "system");
 			Statement stmt = con.createStatement();
 			String query = "Select Customer_ID, Password From customer Where Customer_ID = '"+customerId+"'";
 			ResultSet rs = stmt.executeQuery(query);
@@ -69,7 +69,7 @@ public class M_CustomerAccount {
 	public boolean giveFeedback(String feedback, String customerId) {
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "root");
+			Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "system");
 		Statement stmt = con.createStatement();
 		String sql = "Update customer Set Feedback = '"+ feedback +"' Where Customer_ID = '" + customerId + "'"; 
 		int a = stmt.executeUpdate(sql);
@@ -81,7 +81,7 @@ public class M_CustomerAccount {
 		try {
 
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "root");
+			Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "system");
 			Statement stmt = con.createStatement();
 			String sql = "Update customer Set Password = '"+newPassword+"' Where Customer_ID = '" + customerId + "'"; 
 			int a = stmt.executeUpdate(sql);

@@ -118,20 +118,20 @@ public class form1 extends JFrame {
 		panel.add(txtpnOurCommitmentTo);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
-		Image image3 = new ImageIcon(this.getClass().getResource("/Home Page_pic.PNG")).getImage();
-		lblNewLabel_1.setIcon(new ImageIcon(image3));
+//		Image image3 = new ImageIcon(this.getClass().getResource("/Home Page_pic.PNG")).getImage();
+//		lblNewLabel_1.setIcon(new ImageIcon(image3));
 		lblNewLabel_1.setBounds(0, 0, 992, 198);
 		panel.add(lblNewLabel_1);
 		
 		JLabel lblNewLabel_12 = new JLabel("");
-		Image img1 = new ImageIcon(this.getClass().getResource("/1.PNG")).getImage();
-		lblNewLabel_12.setIcon(new ImageIcon(img1));
+//		Image img1 = new ImageIcon(this.getClass().getResource("/1.PNG")).getImage();
+//		lblNewLabel_12.setIcon(new ImageIcon(img1));
 		lblNewLabel_12.setBounds(991, 0, 374, 257);
 		panel.add(lblNewLabel_12);
 		
 		JLabel lblNewLabel_13 = new JLabel("");
-		Image img2 = new ImageIcon(this.getClass().getResource("/2.PNG")).getImage();
-		lblNewLabel_13.setIcon(new ImageIcon(img2));
+//		Image img2 = new ImageIcon(this.getClass().getResource("/2.PNG")).getImage();
+//		lblNewLabel_13.setIcon(new ImageIcon(img2));
 		lblNewLabel_13.setBounds(991, 248, 374, 358);
 		panel.add(lblNewLabel_13);
 		
@@ -304,21 +304,21 @@ public class form1 extends JFrame {
 		panel_4.add(btnViewFullMenu);
 		
 		JLabel lblNewLabel_8 = new JLabel("");
-		lblNewLabel_8.setIcon(new ImageIcon("C:\\Users\\Fast\\Desktop\\Capture1.png"));
-		Image img3 = new ImageIcon(this.getClass().getResource("/16.jpg")).getImage();
-		lblNewLabel_8.setIcon(new ImageIcon(img3));
+//		lblNewLabel_8.setIcon(new ImageIcon("C:\\Users\\Fast\\Desktop\\Capture1.png"));
+//		Image img3 = new ImageIcon(this.getClass().getResource("/16.jpg")).getImage();
+		//lblNewLabel_8.setIcon(new ImageIcon(img3));
 		lblNewLabel_8.setBounds(-12, 423, 812, 196);
 		panel_4.add(lblNewLabel_8);
 		
 		JLabel lblNewLabel_14 = new JLabel("");
-		Image img4 = new ImageIcon(this.getClass().getResource("/vegetais-ajustados-a-esquerda-de-uma-ardosia-preta_1220-685.jpg")).getImage();
-		lblNewLabel_14.setIcon(new ImageIcon(img4));
-		lblNewLabel_14.setBounds(422, 423, 626, 183);
+//		Image img4 = new ImageIcon(this.getClass().getResource("/vegetais-ajustados-a-esquerda-de-uma-ardosia-preta_1220-685.jpg")).getImage();
+//		lblNewLabel_14.setIcon(new ImageIcon(img4));
+//		lblNewLabel_14.setBounds(422, 423, 626, 183);
 		panel_4.add(lblNewLabel_14);
 		
 		JLabel lblNewLabel_15 = new JLabel("");
-		Image img5 = new ImageIcon(this.getClass().getResource("/4.PNG")).getImage();
-		lblNewLabel_15.setIcon(new ImageIcon(img5));
+//		Image img5 = new ImageIcon(this.getClass().getResource("/4.PNG")).getImage();
+//		lblNewLabel_15.setIcon(new ImageIcon(img5));
 		lblNewLabel_15.setBounds(1045, 393, 320, 239);
 		panel_4.add(lblNewLabel_15);
 		
@@ -363,22 +363,22 @@ public class form1 extends JFrame {
 		lblTwitter.setFont(new Font("Calibri", Font.PLAIN, 18));
 		lblTwitter.setBounds(59, 450, 554, 44);
 		panel_3.add(lblTwitter);
-		
+
 		JLabel lblNewLabel_2 = new JLabel("");
-		Image image = new ImageIcon(this.getClass().getResource("/facebook.PNG")).getImage();
-		lblNewLabel_2.setIcon(new ImageIcon(image));
+//		Image image = new ImageIcon(this.getClass().getResource("/facebook.PNG")).getImage();
+//		lblNewLabel_2.setIcon(new ImageIcon(image));
 		lblNewLabel_2.setBounds(65, 400, 46, 39);
 		panel_3.add(lblNewLabel_2);
 		
 		JLabel lblNewLabel_3 = new JLabel("");
-		Image image1 = new ImageIcon(this.getClass().getResource("/Instagram.png")).getImage();
-		lblNewLabel_3.setIcon(new ImageIcon(image1));
+//		Image image1 = new ImageIcon(this.getClass().getResource("/Instagram.png")).getImage();
+	//	lblNewLabel_3.setIcon(new ImageIcon(image1));
 		lblNewLabel_3.setBounds(175, 400, 51, 39);
 		panel_3.add(lblNewLabel_3);
 		
 		JLabel lblNewLabel_4 = new JLabel("");
-		Image image2 = new ImageIcon(this.getClass().getResource("/Youtube.png")).getImage();
-		lblNewLabel_4.setIcon(new ImageIcon(image2));
+//		Image image2 = new ImageIcon(this.getClass().getResource("/Youtube.png")).getImage();
+//		lblNewLabel_4.setIcon(new ImageIcon(image2));
 		lblNewLabel_4.setBounds(292, 400, 53, 39);
 		panel_3.add(lblNewLabel_4);
 		
@@ -444,10 +444,10 @@ public class form1 extends JFrame {
 		lblRecievingTime.setBounds(10, 100, 418, 30);
 		panel_5.add(lblRecievingTime);*/		
 		JLabel lblNewLabel_9 = new JLabel("");
-		Image img6 = new ImageIcon(this.getClass().getResource("/1.PNG")).getImage();
-		lblNewLabel_9.setIcon(new ImageIcon(img6));
-		lblNewLabel_9.setIcon(new ImageIcon("C:\\Users\\Fast\\Desktop\\Capture1.png"));
-		lblNewLabel_9.setBounds(51, 349, 1205, 246);
+//		Image img6 = new ImageIcon(this.getClass().getResource("/1.PNG")).getImage();
+//		lblNewLabel_9.setIcon(new ImageIcon(img6));
+//		lblNewLabel_9.setIcon(new ImageIcon("C:\\Users\\Fast\\Desktop\\Capture1.png"));
+//		lblNewLabel_9.setBounds(51, 349, 1205, 246);
 		panel_5.add(lblNewLabel_9);
 		
 		

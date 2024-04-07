@@ -21,6 +21,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.util.Objects;
 
 public class Cafe extends JFrame {
 
@@ -60,7 +61,7 @@ public class Cafe extends JFrame {
 		
 		JLabel lblNewLabel = new JLabel((String) null);
 		lblNewLabel.setBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null));
-//		Image image = new ImageIcon(this.getClass().getResource("../../Images/map2.png")).getImage();
+//		Image image = new ImageIcon(Objects.requireNonNull(this.getClass().getResource("C:/Users/Asus/Desktop/github/javaproject/Images/map2.png"))).getImage();
 //		lblNewLabel.setIcon(new ImageIcon(image));
 		lblNewLabel.setBounds(1056, 419, 314, 284);
 		contentPane.add(lblNewLabel);
